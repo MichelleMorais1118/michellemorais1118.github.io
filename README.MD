@@ -54,3 +54,17 @@ estrutura de dados
 * objetos = 
 * loop ou laço de repetição =
 nó ou filho = 
+
+----------------------------------------
+echo "# NLW24" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin ''
+git push -u origin main
+
+ou
+git remote add origin ''
+git branch -M main
+git push -u origin main
