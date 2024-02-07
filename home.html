@@ -3,31 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <main>
+        <header>
 
-    </header>
-    <div>
-        <h1>Quiz básico de RPG</h1>
-        <div id="quiz"></div>
-        <template>
-            <div class="quiz-item">
-                <h3>Pergunta 01</h3>
-                <dl>
-                    <dt>
-                        <input type="radio" name="item" value="0">
-                        <span></span>
-                    </dt>
-                </dl>
-            </div>
+        </header>
+        <div>
+            <h1>Quiz básico de RPG</h1>
+            <div id="quiz"></div>
+            <template>
+                <div class="quiz-item">
+                    <h3>Pergunta 01</h3>
+                    <dl>
+                        <dt>
+                            <input type="radio" name="item" value="0">
+                            <span></span>
+                        </dt>
+                    </dl>
+                </div>
+            </template>
+        </div>
         </template>
-    </div>
-    </template>
-    <footer>
-
-    </footer>
-    <script src="/code.js"></script>
+        <footer id="acertos">
+            <strong>Acertos</strong>
+            <span>0 de 1</span>
+        </footer>
+        <script src="/code.js"></script>
+    </main>
 </body>
 </html>

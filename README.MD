@@ -56,7 +56,8 @@ estrutura de dados
 nó ou filho = 
 
 ----------------------------------------
-echo "# NLW24" >> README.md
+Git 
+
 git init
 git add README.md
 git commit -m "first commit"
@@ -65,6 +66,14 @@ git remote add origin ''
 git push -u origin main
 
 ou
+
 git remote add origin ''
 git branch -M main
 git push -u origin main
+
+--------------------------------------
+---------- Aula 02 ----------
+
+CSS
+
+* Cascading Style Sheet
