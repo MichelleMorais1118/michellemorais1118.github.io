@@ -4,7 +4,7 @@ const mensagem = "Primeira Aula!"
 alert(mensagem + (9 * 2) + "hrs tem mais!" )
 
 const celular = {
-    cor: 'preto',
+    cor: 'roxo',
     modelo:'xiaomi',
     peso: 150
 }
